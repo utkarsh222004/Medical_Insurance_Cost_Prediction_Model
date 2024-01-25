@@ -10,7 +10,6 @@ from tensorflow.keras.layers import Dense
 import streamlit as st
 
 # Load the data
-# Replace 'your_data.csv' with your actual file name
 data = pd.read_csv('insurance.csv')
 
 # Feature engineering and preprocessing
