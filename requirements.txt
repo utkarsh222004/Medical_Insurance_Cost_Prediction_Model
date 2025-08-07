@@ -1,7 +1,13 @@
+# Core UI framework
 streamlit==1.34.0
-tensorflow==2.20.0rc0
-pandas==2.2.2
-numpy==1.26.4
-scikit-learn==1.5.0
-matplotlib>=3.8.0
-python-dateutil>=2.9.0
+
+# ML frameworks
+tensorflow==2.14.0
+scikit-learn
+
+# Core scientific stack
+pandas
+numpy
+
+# For scaling inputs
+protobuf<5
